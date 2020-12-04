@@ -1,0 +1,51 @@
+.main-container{
+  width:40vw;
+  margin: auto;
+  text-align: center;
+}
+
+.player-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 20px;
+}
+.moves{
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 15px;
+  border: 1px solid black;
+  margin : 20px;
+  cursor: pointer;
+  color:#FEA500;
+  background-color: #292828;
+  box-shadow: 2px 2px 8px black;
+  display: inline-block;
+}
+
+.noBorder{
+  font-size: 3rem;
+  padding: 15px;
+ 
+  margin : 20px;
+  cursor: pointer;
+  color:#FEA500;
+
+}
+
+.winner{
+  color:green;
+}
+
+.grid{
+  border: 1px solid #292828;
+  background-color: #292828;
+  height : 40vh;
+}
+.grid h2{
+  background-color: #0A0A0A;
+  color:white;
+  text-align: center;
+  padding: 10px;
+  margin:0;
+
+}
